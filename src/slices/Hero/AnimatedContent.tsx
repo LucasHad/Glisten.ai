@@ -48,8 +48,8 @@ function AnimatedContent({ slice }: { slice: Content.HeroSlice }) {
       tl.fromTo(
         ".hero__image",
         { y: 100 },
-        { y: 0, duration: 1, opacity: 1 },
-        "+=0.3",
+        { y: 0, duration: 1.3, opacity: 1 },
+        "-=0.3",
       );
       tl.fromTo(
         ".hero__glow",

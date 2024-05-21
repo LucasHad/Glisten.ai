@@ -20,6 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={DmSans.variable}>
+      <head>
+        <link rel="icon" href="icon.png" />
+      </head>
       <body className=" bg-[#070815] text-white">
         <Header />
         <main>{children}</main>
